@@ -1,0 +1,29 @@
+
+.lookbook{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24vh;
+
+}
+
+ .lookbook_item img{
+    width: 30vw;
+    height: auto;
+    object-fit: cover;
+    padding: 4%;
+    border-radius: 10px;
+}
+
+.lookbook_item h5{
+    font-family: 'Jost';
+    text-align: center;
+    margin-top: -8px;
+    font-size: 150%;
+    font-weight: normal;
+
+}
+
+.lookbook_item{
+    margin-bottom: 2vh;
+}

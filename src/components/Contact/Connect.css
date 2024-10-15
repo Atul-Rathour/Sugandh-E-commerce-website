@@ -1,0 +1,84 @@
+
+.connect {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.connect .name {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    /* padding: 2%; */
+}
+
+.connect .name input {
+    padding-right: 2%;
+}
+
+.connect .p1 {
+    font-size: 199%;
+    font-family: 'Jost';
+    font-weight: 501;
+    margin-bottom: 0rem;
+}
+
+.connect .p2 {
+    font-size: 80%;
+    font-weight: 501;
+    color: #666;
+    margin-bottom: 5vh;
+}
+
+.connect input {
+    /* padding: 5% ; */
+    height: 5vh;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-top: 2vh;
+}
+
+.connect textarea:focus {
+    /* border: none; */
+    outline: none;
+}
+
+.connect textarea {
+    margin-top: 2vh;
+    border: none;
+    border-bottom: 2px solid black;
+
+}
+
+.connect .check {
+    width: 15px;
+    margin-top: 5px;
+    display: inline;
+}
+
+
+.connect .opt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.connect label {
+    display: inline;
+    margin-top: 13px;
+}
+
+.connect .submit {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.connect .submit:hover {
+    background-color: #000;
+    color: #fff;
+}

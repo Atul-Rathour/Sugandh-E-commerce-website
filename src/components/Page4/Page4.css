@@ -1,0 +1,126 @@
+
+#page4 {
+    transform: translateY(25vh);
+    background-color: #D5BFB0;
+
+}
+
+#page4 .content {
+
+    padding-top: 10vh;
+    margin-left: 8vw;
+    /* padding-bottom: 10vh; */
+    position: absolute;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* height: 100vh; */
+    position: relative;
+    /* left: 10vw; */
+    /* top: 45vh; */
+    /* transform: translate(-50%, -50%);*/
+
+}
+
+#page4 .content a {
+    text-decoration: none;
+    background-color: #26434F;
+    color: #fff;
+    font-size: 153%;
+    padding: 10px;
+    border-radius: 6px;
+    margin-left: -1vw;
+
+}
+
+#page4 .content .p1 {
+    font-size: 200%;
+    padding-top: 1vh;
+}
+
+#page4 .content .p2 {
+    font-size: 90%;
+    color: #706E6D;
+}
+
+
+#page4 .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 7;
+    /* transform: scale(0.8); */
+
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 2;  */
+    /* grid-row: 1 / span 2; */
+}
+
+#page4 .gallery__item--5 img {
+    /* transform: scale(0.8); */
+    /* width: 0vw; */
+    object-position: top;
+
+}
+
+#page4 .gallery__item--3 img {
+    /* transform: scale(0.8); */
+    /* width: 0vw; */
+    object-position: right;
+
+}
+
+#page4 .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 7; 
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    /** Alternative Syntax **/
+    /* grid-column: 3 / span 2;  */
+    /* grid-row: 1 / span 2; */
+}
+
+#page4 .gallery__item--3 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
+    /** Alternative Syntax **/
+    /* grid-column: 5 / span 4;
+    grid-row: 1 / span 5; */
+}
+
+#page4 .gallery__item--4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 4;  */
+    /* grid-row: 3 / span 3; */
+}
+
+#page4 .gallery__item--5 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 4; */
+    /* grid-row: 6 / span 3; */
+}
+
+#page4 .gallery__item--6 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 7;
+
+    /** Alternative Syntax **/
+    /* grid-column: 5 / span 4; */
+    /* grid-row: 6 / span 3; */
+}

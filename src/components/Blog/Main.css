@@ -1,0 +1,15 @@
+
+.blog{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 24vh;
+
+}
+
+ .blog_item img{
+    width: 40vw;
+    height: auto;
+    object-fit: cover;
+    padding: 1.5%;
+}

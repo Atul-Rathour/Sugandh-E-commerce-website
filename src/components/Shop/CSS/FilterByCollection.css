@@ -1,0 +1,17 @@
+
+.collection-filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.collection-filter .list-item span {
+    border: 1px solid #EDEDED;
+    padding: 13px;
+    margin-left: 15px;
+}
+
+.collection-filter .list-item {
+    margin-top: 5vh;
+}

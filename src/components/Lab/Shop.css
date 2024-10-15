@@ -1,0 +1,352 @@
+
+.content {
+    margin-top: 25vh;
+}
+
+.sec-1 {
+    width: 30vw;
+    margin-right: 4vw;
+}
+
+.sec-2 {
+    width: 60vw;
+}
+
+.accordion dt>a {
+    text-align: center;
+    /* font-weight: 700; */
+    font-weight: normal;
+    font-family: 'Jost';
+    letter-spacing: 3px;
+    padding: 2em;
+    display: block;
+    font-size: 120%;
+    text-decoration: none;
+    color: #000;
+    /* -webkit-transition: background-color 0.5s ease-in-out; */
+}
+
+.accordion dd {
+    background-color: #FFFFFF;
+    color: #000;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.accordion dd>p {
+    padding: 1em 2em 1em 2em;
+}
+
+.accordion {
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.n_container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2em 0 2em 0;
+    width: 30vw;
+    float: left;
+}
+
+.accordionTitle {
+    background-color: #FFFFFF;
+    color: #000;
+    border-bottom: 1px solid #E6E9EC;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 150%;
+
+}
+
+.accordionTitle:before {
+    content: "+";
+    font-size: 1.5em;
+    line-height: 0.5em;
+    float: left;
+    -moz-transition: -moz-transform 0.3s ease-in-out;
+    -o-transition: -o-transform 0.3s ease-in-out;
+    -webkit-transition: -webkit-transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+
+.accordionTitle:hover {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+.accordionTitleActive {
+    background-color: #FFFFFF;
+    color: #000;
+
+}
+
+.accordionTitleActive:before {
+    -webkit-transform: rotate(-225deg);
+    -moz-transform: rotate(-225deg);
+    transform: rotate(-225deg);
+}
+
+.accordionItem {
+    height: min-content;
+    overflow: hidden;
+    transition: height 1s;
+}
+
+@media all {
+    .accordionItem {
+        max-height: max-content;
+        -moz-transition: max-height 1s;
+        -o-transition: max-height 1s;
+        -webkit-transition: max-height 1s;
+        transition: max-height 1s;
+    }
+}
+
+@media screen and (min-width: 48em) {
+    .accordionItem {
+        /* max-height: 15em; */
+        -moz-transition: max-height 0.5s;
+        -o-transition: max-height 0.5s;
+        -webkit-transition: max-height 0.5s;
+        transition: max-height 0.5s;
+    }
+}
+
+.accordionItemCollapsed {
+    max-height: 0;
+}
+
+.animateIn {
+    -webkit-animation-name: accordionIn;
+    -webkit-animation-duration: 0.65s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: normal;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    -moz-animation-name: normal;
+    -moz-animation-duration: 0.65s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay: 0s;
+    animation-name: accordionIn;
+    animation-duration: 0.65s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+}
+
+.animateOut {
+    -webkit-animation-name: accordionOut;
+    -webkit-animation-duration: 0.75s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-delay: 0s;
+    -moz-animation-name: accordionOut;
+    -moz-animation-duration: 0.75s;
+    -moz-animation-iteration-count: 1;
+    -moz-animation-direction: alternate;
+    -moz-animation-timing-function: ease-in-out;
+    -moz-animation-fill-mode: both;
+    -moz-animation-delay: 0s;
+    animation-name: accordionOut;
+    animation-duration: 0.75s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation-delay: 0s;
+}
+
+@-webkit-keyframes accordionIn {
+    0% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+}
+
+@-moz-keyframes accordionIn {
+    0% {
+        opacity: 0;
+        -moz-transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+}
+
+@keyframes accordionIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes accordionOut {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: scale(0.8);
+    }
+}
+
+@-moz-keyframes accordionOut {
+    0% {
+        opacity: 1;
+        -moz-transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        -moz-transform: scale(0.8);
+    }
+}
+
+@keyframes accordionOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+}
+
+.category-filter .list-item {
+    padding-top: 10px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.category-filter .list-item a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Jost' !important;
+    font-size: 110%;
+}
+
+.category-filter .list-item a span {
+    transition: 0.2s;
+}
+
+.category-filter .list-item a span:hover {
+    font-weight: 501;
+    font-size: 120%;
+}
+
+.color-filter .list-item .et-swatch-circle span {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    padding-left: 10px;
+    /* border: 2px solid ; */
+    box-shadow: inset 0 0 1px 0 rgba(0, 0, 0, .5);
+
+}
+
+.color-filter .list-item {
+    padding: 10px;
+}
+
+.color-filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.size-filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.size-filter .list-item span {
+    border: 1px solid #EDEDED;
+    padding: 13px;
+    margin-left: 15px;
+}
+
+.size-filter .list-item {
+    margin-top: 5vh;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #333;
+}
+
+.collection-filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.collection-filter .list-item span {
+    border: 1px solid #EDEDED;
+    padding: 13px;
+    margin-left: 15px;
+}
+
+.collection-filter .list-item {
+    margin-top: 5vh;
+}
+
+.gallery {
+    width: 60vw;
+}
+
+.p1 a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.5s;
+}
+
+.p1 a:hover {
+    font-weight: 501;
+    font-size: 120%;
+}
+
+.img-div img {
+    padding-right: 3vw;
+    width: 22vw;
+    /* height: 20vh; */
+    height: auto;
+    /* width: auto; */
+}
+
+.load-more button {
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 6px;
+}

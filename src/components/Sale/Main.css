@@ -1,0 +1,35 @@
+
+.content{
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Jost';
+    margin-bottom: 5vh;
+
+}
+
+
+
+.content .head{
+    font-size: 334%;
+    /* font-size: 40px; */
+    font-weight: 300;
+    margin-bottom: 5vh;
+}
+
+.content .p1{
+    font-size: 126%;
+  font-weight: 501;
+  margin-bottom: 1vh;
+}
+
+.content .p2{
+    color: #666;
+}
+
+.content a{
+    color: #333;
+    text-decoration: none;
+}

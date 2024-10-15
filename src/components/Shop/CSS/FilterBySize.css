@@ -1,0 +1,21 @@
+
+.size-filter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.size-filter .list-item span {
+    border: 1px solid #EDEDED;
+    padding: 13px;
+    margin-left: 15px;
+}
+
+.size-filter .list-item {
+    margin-top: 5vh;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #333;
+}

@@ -1,0 +1,24 @@
+
+.category-filter .list-item {
+    padding-top: 10px;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.category-filter .list-item a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Jost' !important;
+    font-size: 110%;
+}
+
+.category-filter .list-item a span {
+    transition: 0.2s;
+}
+
+.category-filter .list-item a span:hover {
+    font-weight: 501;
+    font-size: 120%;
+}

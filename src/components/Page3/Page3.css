@@ -1,0 +1,30 @@
+
+#page3 {
+    transform: translateY(25vh);
+    margin-bottom: 21vh;
+}
+
+#page3 .center-img {
+    width: 60vw;
+    max-width: 100vw;
+    height: 70vh;
+    border: 2px solid #000;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 10vh;
+}
+
+#page3 .center-img img {
+    width: 22vw;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    max-width: 100vw;
+}

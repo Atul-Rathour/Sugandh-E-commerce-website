@@ -1,0 +1,93 @@
+
+#carousel {
+    /* position: relative;
+    top: 20vh; */
+
+    margin-top: 13vh;
+}
+
+#carousel .slider {
+    width: 100vw;
+    max-width: 100vw;
+    height: 700px;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+    /* border: 2px solid black; */
+}
+
+#carousel .slider .list {
+    position: absolute;
+    width: max-content;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    transition: 1s;
+
+}
+
+#carousel .slider .list img {
+    width: 100vw;
+    max-width: 100vw;
+    height: 80vh;
+    max-height: 100vh;
+    object-fit: contain;
+    /* border: 2px solid black; */
+
+    /* object-fit: ; */
+}
+
+#carousel .slider .buttons {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#carousel .slider .buttons button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff5;
+    color: #fff;
+    border: none;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#carousel .slider .dots {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: gray;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#carousel .slider .dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    /* background-color: #f8ece0; */
+    background-color: black;
+    margin: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+#carousel .slider .dots li.active {
+    width: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    #carousel .slider {
+        height: 400px;
+    }
+}

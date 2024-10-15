@@ -1,0 +1,34 @@
+
+.sec-2 {
+    width: 60vw;
+}
+
+.imagery {
+    width: 60vw;
+}
+
+.p1 a {
+    text-decoration: none;
+    color: #333;
+    transition: 0.5s;
+}
+
+.p1 a:hover {
+    font-weight: 501;
+    font-size: 120%;
+}
+
+.img-div img {
+    padding-right: 3vw;
+    width: 22vw;
+    /* height: 20vh; */
+    height: auto;
+    /* width: auto; */
+}
+
+.load-more button {
+    background-color: #fff;
+    border: 2px solid black;
+    padding: 8px;
+    border-radius: 6px;
+}

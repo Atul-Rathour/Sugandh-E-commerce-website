@@ -1,0 +1,78 @@
+
+
+#footer {
+    transform: translateY(40vh);
+    background-color: #F2F2F2 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* text-align: center; */
+    font-family: 'Jost';
+    margin-top: 8vh;
+}
+
+#footer .shop {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+
+}
+
+#footer .information {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+
+}
+
+#footer .extras {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+
+}
+
+#footer .customer {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+
+}
+
+#footer .rows {
+    padding: 8vh;
+    padding-top: 2vh;
+
+}
+
+#footer span {
+    color: #333;
+    line-height: 27px;
+    size: 16px;
+    margin: 4% 0%;
+    cursor: pointer;
+}
+
+#footer .head {
+    font-family: 'Jost';
+    font-size: 120%;
+    padding-bottom: 16%;
+    line-height: 19px;
+    color: #777;
+    letter-spacing: 2px;
+    cursor: default;
+}
+
+#footer .icons {
+    display: flex;
+}
+
+#footer .fb {
+    padding-right: 2vw;
+}
+
+
+#footer a{
+    color: #333;
+    text-decoration: none;
+}
